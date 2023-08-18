@@ -5,14 +5,17 @@ public class Main {
 
         int bonusRub;
 
-        boolean b = replenishment > 1000;
+        boolean sum = replenishment > 1000;
 
 
-        if (b); else bonusRub = 0;
+        if (sum);
         {
 
             bonusRub = replenishment / 100 * 1;
 
+        } else {
+
+            bonusRub = 0;
         }
 
 
