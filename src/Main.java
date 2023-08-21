@@ -6,19 +6,16 @@ public class Main {
         int bonusRub = 0;
 
 
-
-
-        if (replenishment > 1000);
+        if (replenishment > 1000) ;
         {
-
             bonusRub = replenishment / 100 * 1;
 
         }
 
-        int finalBill = bill  + replenishment + bonusRub;
+        int finalBill = bill + replenishment + bonusRub;
 
         System.out.println("Итоговый счет: " + finalBill);
-        System.out.println("Бонусные рубли: " + bonusRub );
+        System.out.println("Бонусные рубли: " + bonusRub);
 
 
     }
