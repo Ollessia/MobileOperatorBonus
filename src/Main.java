@@ -6,9 +6,8 @@ public class Main {
         int bonusRub = 0;
 
 
-        if (replenishment > 1000) ;
-        {
-            bonusRub = replenishment / 100 * 1;
+        if (replenishment > 1000) {
+            bonusRub = replenishment / 100;
 
         }
 
